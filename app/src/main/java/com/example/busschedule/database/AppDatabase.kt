@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.busschedule.Schedule
-import com.example.busschedule.ScheduleDao
+import com.example.busschedule.database.schedule.Schedule
+import com.example.busschedule.database.schedule.ScheduleDao
 
 //указать Room, что делать со всеми этими классами DAO
 @Database(entities = arrayOf(Schedule::class), version = 1)

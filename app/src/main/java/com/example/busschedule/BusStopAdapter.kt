@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.busschedule.database.schedule.Schedule
 import com.example.busschedule.databinding.BusStopItemBinding
 import java.text.SimpleDateFormat
 import java.util.*
